@@ -3,6 +3,8 @@ CREATE SCHEMA staging_area;
 GO
 CREATE SCHEMA dw;
 
+GO
+
 CREATE TABLE staging_area.[stores] (
   [id] int PRIMARY KEY IDENTITY(1, 1),
   [store_id] int UNIQUE,
